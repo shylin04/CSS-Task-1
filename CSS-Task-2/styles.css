@@ -1,0 +1,54 @@
+@font-face {
+    font-family:AguafinaScript;
+    src: url(./AguafinaScript-Regular.ttf);
+}
+h1{
+    font-size: 20px;
+    font-family:AguafinaScript;
+    
+}
+
+ @font-face{
+    font-family:Allura ;
+    src:url(./Allura-Regular.ttf);
+}
+h2{
+    font-size: 20px;
+    font-family:Allura ;
+}
+@font-face{
+    font-family: Sacramento;
+    src:url(./Roboto-Bold.ttf);
+    
+    
+}
+h3{
+    font-size: 20px;
+    font-family: Sacramento;
+}
+@font-face{
+    font-family:Montserrat;
+    src:url(./Montserrat-Regular.ttf);
+    
+}
+h4{
+    font-size: 20px;
+    font-family:Montserrat;
+}
+@font-face{
+    font-family:Raleway;
+    src:url(./Raleway-Medium.ttf);
+    
+}
+h5{
+    font-size: 20px;
+    font-family:Raleway;
+}
+@font-face{
+    font-family:Montserrat;
+    src:url(./Montserrat-Regular.ttf);
+}
+h6{
+    font-size: 20px;
+    font-family:Montserrat;
+}
