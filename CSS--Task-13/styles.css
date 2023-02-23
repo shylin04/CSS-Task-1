@@ -54,7 +54,7 @@ label{
     background-color:rgba(0, 0, 0, 0.504);
     color: white;
     width:60%;
-    height:20px;
+    height:25px;
     border-radius: 25px;
     margin-left: 30px;
 }
@@ -80,7 +80,7 @@ label{
     z-index: -1;
     position: absolute;
     left: 55%;
-    top:5%;
+    top:10%;
 }
 .box-two{
     width:400px;
@@ -89,5 +89,5 @@ label{
     z-index: -1;
     position: absolute;
     left:25%;
-    top:60%;
+    top:55%;
 }
