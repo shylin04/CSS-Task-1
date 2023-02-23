@@ -11,81 +11,109 @@
     flex-wrap:wrap;
     justify-content:space-between;
     justify-content:space-around;
-    
-   
-   
-}
-
-#box1{  
+   }
+.box-one{  
 padding:10px;
-margin:10px;
-width:100px;
+margin:1px;
+width:130px;
 height:80px;
 background: brown;
 
     
 }
-#box2{
+.box-two{
 padding:10px;
-margin:10px;
+margin:1px;
 width:300px;
 height:80px;
 background:blue;
 
 }
-#box3{
+.box-three{
 padding:10px;
-margin:10px;
+margin:1px;
 width:500px;
 height:70px;
 background: yellow;
 }
-#box4{
+.box-four{
 padding:10px;
-margin:10px;
-width:125px;
+margin:1px;
+width:130px;
 height:80px;
 background:green;
 }
-#box5{
+.box-five{
 padding:10px;
-margin:10px;
-width:125px;
+margin:1px;
+width:130px;
 height:80px;
 background: violet;
 
 }
-#box6{
+.box-six{
 padding:10px;
-margin:10px;
-width:125px;
+margin:1px;
+width:130px;
 height:80px;
-background:blue;
+background:rgba(0, 183, 255, 0.43);
 
 }
 
-#box7{
+.box-seven{
 padding:10px;
-margin:10px;
-width: 200px;
+margin:1px;
+width: 220px;
 height:70px;
-background: orange;
+background: rgb(132, 255, 0);
 
 }
-#box8{
+.box-eight{
 padding:10px;
-margin:10px;
-width:200px;
+margin:1px;
+width:220px;
 height:70px;
-background:black;
+background:rgb(192, 255, 253);
 
 }
-#box9{
+.box-nine{
 padding:10px;
-margin:10px;
+margin:1px;
+width:90px;
+height:10px;
+background:rgb(247, 0, 255);
+}
+.box-ten{
+padding:10px;
+margin:1px;
+width:90px;
+height:10px;
+background:rgb(71, 11, 23);
+}
+.box-eleven{
+padding:10px;
+margin:1px;
+width:90px;
+height:10px;
+background:greenyellow;
+}
+.box-twelve{
+padding:10px;
+margin:1px;
+width:90px;
+height:10px;
+background:green;
+}
+
+
+.box-thirteen{
+padding:10px;
+margin:1px;
 width:500px;
 height:5px;
 background: red;
 
 }
     
+
+
