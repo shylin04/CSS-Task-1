@@ -2,13 +2,14 @@ body {
     background: url('https://cdn.mos.cms.futurecdn.net/VfWJuCeDZuK2Jf2rARpiUk-1200-80.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .container{
   margin-right: auto;
   margin-left: auto;
- 
+  
 }
-@media (min-width: 1200px)
+@media only screen and (min-width: 1200px)
 {
   .container{
     max-width: 1140px;
@@ -19,29 +20,27 @@ h1{
   text-transform: uppercase;
   text-align: center;
 }
+
 .flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: (0 0 5px 5px);
+  background-color: rgba(0, 217, 255, 0.316);
   padding:25px; 
   color: white;
   
-
 }
 input{
   background: transparent;
   margin:10px;
   height:20px;
-  width:200px;
+  width:300px;
   
 }
-label{
-  
-  display:inline-block;
+.tel-code{
+  width:50px;
 }
 
+.lname,.state,.country{
+  margin-left: 20%;
+}
 
 .order{
   color:white;
@@ -49,7 +48,7 @@ label{
   height:30px;
   width:150px;
   position:relative;
-  left:50%;
+  left:30%;
  
 }
 .reset{
@@ -58,7 +57,7 @@ label{
   height:30px;
   width:150px;
   position:relative;
-  left:50%;
+  left:30%;
 }
 ::placeholder{
   color:white;
