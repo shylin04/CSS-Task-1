@@ -75,8 +75,8 @@ label{
     color: blanchedalmond;
 }
 .box-one{
-    width:300px;
-    height: 100px;
+    width:350px;
+    height: 150px;
     background-color:rgb(245, 245, 220);
     z-index: -1;
     position: absolute;
@@ -84,7 +84,7 @@ label{
     top:1%;
 }
 .box-two{
-    width:400px;
+    width:450px;
     height: 150px;
     background-color:rgba(128, 128, 128, 0.36);
     z-index: -1;
