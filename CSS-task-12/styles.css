@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.one {
+    background-color: rgb(255, 0, 0);
+    border-radius: 25px 25px 0 25px;
+    margin-top: 100px;
+
+}
+
+.two {
+    background-color: rgb(0, 128, 0);
+    border-radius: 25px 25px 25px 0;
+    margin-top: 100px;
+   
+
+}
+
+.three {
+    background-color: rgb(255, 255, 0);
+    border-radius: 25px 0 25px 25px;
+    position: absolute;
+    top: 54%;
+    left: 24%;
+}
+
+.four {
+    background-color: rgb(0, 0, 255);
+    border-radius: 0 25px 25px 25px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+}
+
+.five {
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:calc(20% - 80px);
+    left:calc(50% - 300px);
+    z-index: -1;
+    
+
+}
+
+.six {
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:calc(20% - 80px);
+    left:calc(65% - 150px);
+    z-index: -1;
+}
+
+.seven{
+
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    transform:rotate(-90deg);
+    position: absolute;
+    left:calc(23% - 100px);
+    top:calc(90% - 150px);
+    z-index: -1;
+}
+.eight{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    transform:rotate(-90deg);
+    position: absolute;
+    left:calc(23% - 100px);
+    top:calc(50% - 150px);
+    z-index: -1;
+}
