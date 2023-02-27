@@ -1,47 +1,50 @@
 body {
-    background: url('https://cdn.mos.cms.futurecdn.net/VfWJuCeDZuK2Jf2rARpiUk-1200-80.jpg');
+    background: url('https://img.freepik.com/premium-photo/top-view-worktable-with-laptop-keyboard-pen-notebook-plant-pot-copy-space-home-office-room_67155-13770.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
-}
-.container{
-  margin-right: auto;
-  margin-left: auto;
-  
-}
-@media only screen and (min-width: 1200px)
-{
-  .container{
-    max-width: 1140px;
   }
-}
+
 h1{
   color: white;
   text-transform: uppercase;
   text-align: center;
 }
-
-.flex{
-  background-color: rgba(0, 217, 255, 0.316);
+.box{
+  background-color:rgba(0, 255, 242, 0.279);
   padding:25px; 
   color: white;
-  
+  margin:50px;
+
 }
+
 input{
   background: transparent;
   margin:10px;
   height:20px;
   width:300px;
-  
 }
+label{
+ width:150px;
+ display: inline-block;
+}
+
 .tel-code{
-  width:50px;
+  width:40px;
+}
+.num{
+  width:240px;
 }
 
-.lname,.state,.country{
-  margin-left: 20%;
+.lname, .state, .country{
+  margin-left: 300px;
 }
-
+input[class="address"]
+{
+  width:800px;
+}
+input[class="bill-address" ]{
+  width:800px;
+}
 .order{
   color:white;
   background-color: rgb(0, 247, 255);
