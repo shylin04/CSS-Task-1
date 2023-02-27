@@ -13,7 +13,7 @@ h1{
   background-color:rgba(0, 255, 242, 0.279);
   padding:25px; 
   color: white;
-  margin:50px;
+  margin:30px;
 
 }
 
@@ -48,19 +48,19 @@ input[class="bill-address" ]{
 .order{
   color:white;
   background-color: rgb(0, 247, 255);
-  height:30px;
+  height:50px;
   width:150px;
   position:relative;
-  left:30%;
+  left:20%;
  
 }
 .reset{
   color:white;
   background-color: rgb(255, 247, 0);
-  height:30px;
+  height:50px;
   width:150px;
   position:relative;
-  left:30%;
+  left:20%;
 }
 ::placeholder{
   color:white;
