@@ -1,12 +1,11 @@
 body{
    background-color: rgb(137, 43, 226);
    border-radius: 20px;
-  
-   
 }
 .main-container{
  width:100%;
  display:flex;
+ position: relative;
 }
 .container{
    width:30%;
@@ -96,10 +95,7 @@ li{
 .gray{
    font-size:15px;
 }
-
-
-
- .scheduled-task{
+.scheduled-task{
    position: absolute;
    top:55%;
    left:10%;
@@ -127,12 +123,12 @@ li{
 .fa-calendar-o{
    position: absolute;
    left:85%;
-   top:31%;
+   top:35%;
 }
 .fa-clock-o{
    position: absolute;
    left:83%;
-   top:31%;
+   top:35%;
    
 }
 .fa-calendar,.fa-cog[disabled]{
@@ -168,8 +164,25 @@ li{
 }
 .right{
    position:absolute;
-   
    left:80%;
+   
   }
-  
+
+.main-body > .pink{
+  position:relative;
+  top:18%;
+  left:20%;
+  }
+.main-body >.yellow{
+   position:relative;
+   top:18%;
+   left:22%;
+   
+}
+.main-body > .blue{
+      position:relative;
+      top:18%;
+      left:24%;
+   }
+        
   
