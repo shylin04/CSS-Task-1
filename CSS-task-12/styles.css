@@ -92,7 +92,7 @@ p {
     border-radius: 5px;
     transform:rotate(-90deg);
     position: absolute;
-    left:calc(23% - 100px);
-    top:calc(50% - 150px);
+    left:calc(50% - 300px);
+    top:calc(10% - 150px);
     z-index: -1;
 }
