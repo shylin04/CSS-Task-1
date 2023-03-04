@@ -1,0 +1,40 @@
+@media (min-width: 481px) and (max-width: 768px){
+    .row-one{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .red, .blue{
+        margin: 2% 0;
+        width: 48%;
+    }
+    .darkgoldenrod, .brown{
+        margin: 1% 0;
+    }
+
+    .row-three{
+        flex-direction: column;
+    }
+    .lawngreen, .deeppink, .blueviolet{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0;
+    }
+    .row-four{
+        flex-direction: column;
+    }
+    .orangered, .yellow{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0;
+    }
+    .row-five{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .darkgreen, .aqua, .maroon, .indigo{
+        width: 48%;
+        height: 50%;
+        margin: 1% 0;
+    }
+}

@@ -1,0 +1,118 @@
+*{
+  background-color: bisque;
+  margin:0;
+  padding:10px 20px;
+  box-sizing:border-box;
+  width: 100%;
+}
+div{
+margin:8px;
+}
+.row-one{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.red{
+  width:30%;
+  min-height:100px;
+  padding:10 10px;
+  background-color: red;
+}
+.blue{
+  width:85%;
+  min-height:100px;
+  padding:10 0px;
+  background-color: blue;
+}
+.row-two{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.darkgoldenrod{
+  width:100%;
+  min-height:170px;
+  padding:10 0px;
+  background-color: darkgoldenrod;
+}
+.row-three{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.lawngreen{
+  width:40%;
+  min-height:95px;
+  padding:10 0px;
+  background-color: lawngreen;
+}
+.deeppink{
+  width:40%;
+  min-height:95px;
+  padding:10 0px;
+  background-color: deeppink;
+}
+.blueviolet{
+  width:40%;
+  min-height:95px;
+  padding:10 0px;
+  background-color: blueviolet;
+}
+.row-four{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.orangered{
+  width:50%;
+  min-height:90px;
+  padding:10 0px;
+  background-color: orangered;
+}
+.yellow{
+  width:50%;
+  min-height:90px;
+  padding:10 0px;
+  background-color: yellow;
+}
+.row-five{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.darkgreen{
+  width:30%;
+  min-height:85px;
+  padding:10 0px;
+  background-color: darkgreen;
+}
+.aqua{
+  width:30%;
+  min-height:85px;
+  padding:10 0px;
+  background-color: aqua;
+}
+.maroon{
+  width:30%;
+  min-height:85px;
+  padding:10 0px;
+  background-color: maroon;
+}
+.indigo{
+  width:30%;
+  min-height:85px;
+  padding:10 0px;
+  background-color: indigo;
+}
+.row-six{
+  display:flex;
+  width: 100%;
+  min-height:75px;
+}
+.brown{
+  width:100%;
+  min-height:75px;
+  padding:10 0px;
+  background-color: brown;
+}
