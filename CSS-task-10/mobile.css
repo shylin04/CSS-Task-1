@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+    .row-one{
+        flex-direction: column;
+    }
+    .red, .blue{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0;
+    }
+    .row-three{
+        flex-direction: column;
+    }
+    .lawngreen, .deeppink, .blueviolet{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0;
+    }
+    .row-four{
+        flex-direction: column;
+    }
+    .orangered, .yellow{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0;
+    }
+    .row-five{
+        flex-direction: column;
+    }
+    .darkgreen, .aqua, .maroon, .indigo{
+        width: 100%;
+        height: 50%;
+        margin: 1% 0%;
+    }
+    .brown, .darkgoldenrod{
+        width: 100%;
+        margin: 1% 0;
+    }
+}
