@@ -16,9 +16,8 @@ body {
    border-bottom-left-radius: 20px;
    border-top-left-radius: 20px;
    margin: 5px;
-
+   position: relative;
 }
-
 
 img {
    width: 70px;
@@ -39,16 +38,15 @@ hr {
 p {
    position: absolute;
    top: 5%;
-   left: 10%;
-
+   left: 30%;
 }
+
+
 
 h1,
 h2 {
    color: white;
    margin-left: 150px;
-
-
 }
 
 #myinput {
@@ -59,7 +57,6 @@ h2 {
    margin-top: 100px;
    margin-left: 150px;
    font-size: medium;
-
 }
 
 input {
@@ -80,13 +77,13 @@ li[disabled] {
 .task {
    position: absolute;
    top: 30%;
-   left: 10%;
+   left: 30%;
 }
 
 ul {
    position: absolute;
    top: 35%;
-   left: 10%;
+   left: 30%;
    list-style-type: none;
 }
 
@@ -117,60 +114,90 @@ li {
 .scheduled-task {
    position: absolute;
    top: 55%;
-   left: 10%;
+   left: 25%;
 }
 
 .settings {
    position: absolute;
    top: 65%;
-   left: 10%;
+   left: 25%;
 }
 
 .fa-cog {
    position: absolute;
-   left: 8%;
-   top: 67%;
+   left: 20%;
+   top: 68%;
 }
 
 .fa-calendar-check-o {
    position: absolute;
-   left: 8%;
+   left: 25%;
    top: 32%;
 }
 
 .fa-calendar {
    position: absolute;
-   left: 8%;
+   left: 20%;
    top: 57%;
 }
 
 .input-one>.fa-calendar-o {
    position: absolute;
-   left: 85%;
+   left: 95%;
    top: 30%;
    color: blueviolet;
 }
 
 .input-one>.fa-clock-o {
    position: absolute;
-   left: 83%;
+   left: 91%;
    top: 30%;
    color: blueviolet;
-
 }
 
 .fa-calendar,
 .fa-cog[disabled] {
    color: gray;
 }
-.input-two {
+.input-one,
+.input-two,
+.input-three,
+.input-four,
+.input-five {
    position: relative;
 }
 
 .input-two i.fa-regular {
    position: absolute;
    top: 50%;
-   right: 70px;
+   right: 40px;
+   transform: translateY(-50%);
+   font-size: 20px;
+   color: blueviolet;
+}
+
+.input-three i.fa-circle-thin {
+   position: absolute;
+   top: 53%;
+   right: 40px;
+   transform: translateY(-50%);
+   font-size: 20px;
+   color: blueviolet;
+}
+
+.input-four i.fa-circle-thin {
+   position: absolute;
+   top: 62%;
+   right: 40px;
+   transform: translateY(-50%);
+   font-size: 20px;
+   color: blueviolet;
+}
+
+.input-five i.fa-circle-thin {
+   position: absolute;
+   top: 71%;
+   right: 40px;
    transform: translateY(-50%);
    font-size: 20px;
    color: blueviolet;
@@ -182,66 +209,46 @@ li {
    right: 100px;
    transform: translateY(-50%);
    font-size: 15px;
-
 }
-.input-three > i.fa-circle-thin {
-   position: absolute;
-   top: 65%;
-   right: 70px;
-   transform: translateY(-50%);
-   font-size: 20px;
-   color: blueviolet;
-}
-
-
 
 .input-three .right {
    position: absolute;
-   top: 50%;
+   top: 53%;
    right: 100px;
    transform: translateY(-50%);
    font-size: 15px;
-
 }
 
-.meeting {
-   width: 700px;
-   height: 30px;
+.input-four .right {
    position: absolute;
-   left: 45%;
-   top: 49%;
+   top: 62%;
+   right: 100px;
+   transform: translateY(-50%);
+   font-size: 15px;
 }
 
-.project {
-   width: 700px;
-   height: 30px;
+.input-five .right {
    position: absolute;
-   left: 45%;
-   top: 58%;
+   top: 71%;
+   right: 100px;
+   transform: translateY(-50%);
+   font-size: 15px;
 }
 
-.read {
-   width: 700px;
-   height: 30px;
-   position: absolute;
-   left: 45%;
-   top: 66%;
-}
 .input-one>.pink {
    position: absolute;
    top: 30%;
-   left: 42%;
+   left: 20%;
 }
 
 .input-one>.yellow {
    position: absolute;
    top: 30%;
-   left: 44%;
-
+   left: 22%;
 }
 
 .input-one>.blue {
    position: absolute;
    top: 30%;
-   left: 46%;
+   left: 24%;
 }
